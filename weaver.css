@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    
+    width: 100vw;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: fixed;
+   
+ 
+   
+}
+#nav h4{
+   align-self: center;
+   justify-self: center;
+   color: cadetblue;
+
+}
+#nav ul{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 60%;
+   justify-self: center;
+   list-style: none;
+   color: aliceblue;
+
+}
+
+
+/*home page*/
+
+#home{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    background: url(./image/bacgroundimg.jpeg);
+    background-position: center;
+    background-size: cover;
+}
